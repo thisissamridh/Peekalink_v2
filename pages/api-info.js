@@ -1,18 +1,18 @@
-import Head from "next/head";
-import Image from "next/image";
-import Header from "components/Header";
-import Footer from "components/Footer";
-import ReactMarkdown from "react-markdown";
-import rehypeRaw from "rehype-raw";
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { dracula } from "react-syntax-highlighter/dist/cjs/styles/prism";
-import fs from "fs";
+import Head from 'next/head';
+import Image from 'next/image';
+import Header from 'components/Header';
+import Footer from 'components/Footer';
+import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import { dracula } from 'react-syntax-highlighter/dist/cjs/styles/prism';
+import fs from 'fs';
 const fsAsync = fs.promises;
 
-export default function ApiInfo({data}) {
+export default function ApiInfo({ data }) {
   const CodeBlock = {
     code({ node, inline, className, children, ...props }) {
-      const match = /language-(\w+)/.exec(className || "");
+      const match = /language-(\w+)/.exec(className || '');
       return !inline && match ? (
         <SyntaxHighlighter
           style={dracula}
@@ -20,7 +20,7 @@ export default function ApiInfo({data}) {
           PreTag="div"
           {...props}
         >
-          {String(children).replace(/\n$/, "")}
+          {String(children).replace(/\n$/, '')}
         </SyntaxHighlighter>
       ) : (
         <code className={className} {...props}>
@@ -33,10 +33,10 @@ export default function ApiInfo({data}) {
   return (
     <>
       <Head>
-        <title>PreLink - API documentation</title>
+        <title>PeekaLink - API documentation</title>
         <meta
           name="description"
-          content="Documentation for API of PreLink website to get the metadata from urls."
+          content="Documentation for API of PeekaLink website to get the metadata from urls."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -54,7 +54,7 @@ export default function ApiInfo({data}) {
 }
 
 export async function getStaticProps(context) {
-  const markdown = await fsAsync.readFile("api-info.md", "utf8");
+  const markdown = await fsAsync.readFile('api-info.md', 'utf8');
   // console.log(markdown);
   return {
     props: { data: { md: markdown } },

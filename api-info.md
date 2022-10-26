@@ -22,28 +22,32 @@ console.log(result);
 
 ```json
 {
-  "domain": "findcoder.io",
-  "redirectedDomain": "www.findcoder.io",
-  "protocol": "https:",
-  "title": "FindCoder | Welcome",
-  "favicon": "https://www.findcoder.io/favicon-16x16.png",
-  "description": "A central location to find coders. Collab or hire coders with no middleman. An open platform to hire coders based on skills and projects. Showcase your work! Participate in challenges and win exciting prizes and goodies. Improve your portfolio and get interview ready with real world knowledge.",
-  "ogTitle": "FindCoder | Welcome",
-  "ogDescription": "A central location to find coders. Collab or hire coders with no middleman. An open platform to hire coders based on skills and projects. Showcase your work! Participate in challenges and win exciting prizes and goodies. Improve your portfolio and get interview ready with real world knowledge.",
-  "ogUrl": "https://findcoder.io/",
-  "ogImage": ["https://findcoder.io/logos/fc_logo.png"],
-  "ogType": "website",
-  "ogSiteName": "FindCoder.io",
-  "twitterCard": "summary_large_image",
-  "twitterSite": "@FindCoder",
-  "twitterCreator": "@FindCoder",
-  "twitterDescription": "A central location to find coders. Collab or hire coders with no middleman. An open platform to hire coders based on skills and projects. Showcase your work! Participate in challenges and win exciting prizes and goodies. Improve your portfolio and get interview ready with real world knowledge.",
-  "twitterTitle": "FindCoder | Welcome",
-  "twitterImage": ["https://findcoder.io/logos/fc_logo.png"],
-  "twitterImageSrc": ["https://findcoder.io/logos/fc_logo.png"],
-  "keywords": [
-    "FindCoder, coders, programmers, software devs, software developers, hire coders, hire coders online, hire coders all over the worldundefined"
-  ],
-  "author": "FindCoder"
+    "domain": "spotify.com",
+    "redirectedDomain": "open.spotify.com",
+    "protocol": "https:",
+    "title": "Spotify - Web Player: Music for everyone",
+    "favicon": "https://open.spotifycdn.com/cdn/images/favicon.5cb2bd30.ico",
+    "ogSiteName": "Spotify",
+    "description": "Spotify is a digital music service that gives you access to millions of songs.",
+    "ogTitle": "Spotify - Web Player: Music for everyone",
+    "ogDescription": "Spotify is a digital music service that gives you access to millions of songs.",
+    "ogUrl": "https://open.spotify.com/",
+    "ogImage": [
+        "https://open.spotifycdn.com/cdn/images/og-image.860da0d8.png"
+    ],
+    "ogType": "website",
+    "alAndroidAppName": "Spotify",
+    "alAndroidPackage": "com.spotify.music",
+    "alAndroidUrl": "spotify://",
+    "alIosAppName": "Spotify",
+    "alIosAppStoreId": "324684580",
+    "alIosUrl": "spotify://",
+    "twitterSite": "@spotify",
+    "twitterTitle": "Spotify - Web Player: Music for everyone",
+    "twitterDescription": "Spotify is a digital music service that gives you access to millions of songs.",
+    "twitterImage": [
+        "https://open.spotifycdn.com/cdn/images/og-image.860da0d8.png"
+    ],
+    "twitterCard": "summary"
 }
 ```
