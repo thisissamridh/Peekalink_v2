@@ -1,6 +1,6 @@
-# 🖇️PreLink
+# 🖇️PeekaLink
 
-🔗[prelink-demo.vercel.app](https://prelink-demo.vercel.app)
+
 
 A tool website build with [`NextJs`](https://nextjs.org) where you just put `url` of any site and it will show you `Link Preview` of this site on social media sites.
 And also all `Metadata` by scraping.
@@ -21,20 +21,20 @@ And also all `Metadata` by scraping.
 - **NextJs**
 - **Tailwindcss**
 
-##  🚀 PreLink API
+##  🚀 PeelaLink API
 
 Here is the simple way to call the api described bellow:
 
 Just send a GET request on our API endpoint like this -
 
 ```js
-https://prelink-demo.vercel.app/api?url=:url
+https://PeelaLink-demo.vercel.app/api?url=:url
 ```
 
 ### Javascript example
 
 ```js
-const apiUrl = "https://prelink-demo.vercel.app/api";
+const apiUrl = "https://PeelaLink-demo.vercel.app/api";
 const url = "https://example.com";
 
 const result = await fetch(`${apiUrl}?url=${url}`).json;
