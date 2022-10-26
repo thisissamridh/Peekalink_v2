@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -24,9 +24,9 @@ export default function Footer() {
           />
         </svg>
       </div>
-      <div className="w-full grid place-items-center bg-gradient-to-r from-indigo-500 to-purple-500  p-4 pt-10">
-        <div className="text-white italic">Made with 💟 by AkashDeep</div>
-      </div>
+      {/* <div className="w-full grid place-items-center bg-gradient-to-r from-indigo-500 to-purple-500  p-4 pt-10">
+        <div className="text-white italic">Made with 💟 by samridh</div>
+      </div> */}
     </>
   );
 }

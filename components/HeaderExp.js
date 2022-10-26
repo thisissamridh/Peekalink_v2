@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function Header() {
   return (
@@ -10,11 +10,11 @@ export default function Header() {
           </div>
         </Link>
 
-        <Link href="https://github.com/AkashDeep000/prelink">
+        {/* <Link href="https://github.com/AkashDeep000/prelink">
           <button className="text-purple-500 dark:text-purple-300 px-2 font-bold ">
             Github
           </button>
-        </Link>
+        </Link> */}
         <Link href="/api-info">
           <button className="bg-gradient-to-r d to-indigo-500 from-purple-500 text-white dark:text-slate-100 dark:bg-slate-600 px-3 font-bold rounded">
             Get API
