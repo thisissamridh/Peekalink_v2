@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>PreLink - Link Previewer</title>
+        <title>PeekaLink - Link Previewer</title>
         <meta
           name="description"
           content="Get link preview of any url for different social media platform with all metadata."
